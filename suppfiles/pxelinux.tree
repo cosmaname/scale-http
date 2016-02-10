@@ -1,0 +1,9 @@
+/tftp/
+├── [ 37M]  c7x64.initrd
+├── [4.9M]  c7x64.kernel
+├── [ 60K]  menu.c32
+├── [ 998]  pxechain.com
+├── [ 26K]  pxelinux.0
+├── [  20]  pxelinux.cfg
+│   └── [ 383]  default
+└── [159K]  vesamenu.c32

@@ -1,0 +1,16 @@
+DEFAULT menu
+PROMPT 0
+MENU TITLE build server
+MENU ROWS 8
+TIMEOUT 50
+ONTIMEOUT local
+
+LABEL local
+    MENU LABEL (local)
+    MENU DEFAULT
+    LOCALBOOT 0
+
+LABEL 1
+    MENU LABEL CentOS 7 (64-bit)
+    KERNEL c7x64.kernel
+    APPEND ks=http://192.168.252.200/ks/c7x64.ks lang=us keymap=us ip=dhcp noipv6 net.ifnames=0 biosdevname=0 ksdevice=eth1 initrd=c7x64.initrd crashkernel=auto
